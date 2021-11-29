@@ -5,7 +5,7 @@ import { Home } from './Components/Home';
 import { Login } from './Components/Login';
 import { About } from './Components/About';
 import { News } from './Components/News';
-
+import {Show} from "./Components/Show";
 
 
 function App() {
@@ -33,6 +33,15 @@ function App() {
           </Route>
           <Route path = "/news">
           <News />
+          </Route>
+          <Route path = "/:movie/:id">
+              <Show />
+          </Route>
+          <Route path = "/:event/:id">
+              <Show />
+          </Route>
+          <Route path = "/:play/:id">
+              <Show />
           </Route>
         </Switch>
       </div>

@@ -4,19 +4,24 @@
       "id": 1,
       "title": "The Shawshank Redemption(1994)",
       "author": "Nrupul dev",
+      "rating" : 5.4,
       "image" : "https://www.bing.com/th?id=OIP.7D1S2qVr2cKr8NgpUtO4rQHaLH&w=151&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
       "desc" : "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."
     },  {
       "id": 2,
       "title": "The godfather",
       "author": "Nrupul dev",
-      "image" : "https://www.bing.com/th?id=OIP.7D1S2qVr2cKr8NgpUtO4rQHaLH&w=151&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "rating" : 5.0,
+
+      "image" : "https://www.bing.com/th?q=Godfather+Drawings&w=100&h=100&c=7&o=5&dpr=1.5&pid=1.7&mkt=en-IN&cc=IN&setlang=en&adlt=moderate",
       "desc" : "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."
     },
     {
       "id": 3,
       "title": "Venom",
       "author": "Nrupul dev",
+      "rating" : 4.4,
+
       "image" : "https://www.bing.com/th?id=OIP.7D1S2qVr2cKr8NgpUtO4rQHaLH&w=151&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
       "desc" : "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."
     }
