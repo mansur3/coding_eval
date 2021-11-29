@@ -3,6 +3,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {useState, useEffect} from "react";
 
 import {loginSuccess} from "../Redux/Login/action.js";
+import {Redirect} from "react-router-dom";
 
 import {uuid} from "uuidv4";
 
@@ -11,14 +12,18 @@ import {uuid} from "uuidv4";
 export const Login = () => {
 
     const dispatch = useDispatch();
-    const {store} = useSelector((store) => store);
+    const {isAuth, token} = useSelector((store) => store);
     
 
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
 
-
+    if(isAuth) {
+        return (
+            <Redirect to = "/" />
+        )
+    }
 
 
 

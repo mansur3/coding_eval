@@ -11,7 +11,7 @@ function loadData(key) {
     }   
 }
 
-const initState = loadData("token") || {isAuth : false, token : ""}
+const initState =  {isAuth : false, token : ""}
 
 function saveData(key, data = "") {
     localStorage.setItem(key, JSON.stringify(data))
@@ -20,7 +20,7 @@ function saveData(key, data = "") {
 export const LoginReducer = (state = initState,{type, payload}) => {
     switch(type) {
         case LOGIN_SUCCESS : 
-            saveData("token", payload.token)
+            // saveData("token", payload.token)
             return {
                 ...state,
                 token : payload,
