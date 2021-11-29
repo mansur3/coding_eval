@@ -20,7 +20,7 @@ function saveData(key, data = "") {
 export const LoginReducer = (state = initState,{type, payload}) => {
     switch(type) {
         case LOGIN_SUCCESS : 
-            saveData("token", payload)
+            saveData("token", payload.token)
             return {
                 ...state,
                 token : payload,
