@@ -10,7 +10,7 @@ import {Link} from "react-router-dom";
 
 export const Home = () => {
 
-    const {event, movie, play} = useContext(provider);
+    const {event, movie, play, booked} = useContext(provider);
 
 
 
@@ -34,6 +34,11 @@ export const Home = () => {
     return (
         <div style = {{width: "100%", display: "grid", gridTemplateColumns: "33% 33% 33%", gridGap : "10px"}}>
             <div  className = "movieContainer">
+            <div style = {{backgroundColor: "gray", color: "white"}}><h2>Booked movie </h2>
+                {booked.map((e) => (
+                    <div key = {e.id}>{e.title}</div>
+                ))}
+            </div>
             <h2>Movies</h2>
                 {
                     movie.map((e) => (

@@ -10,6 +10,8 @@ export const ContextProvider = ({children}) => {
     const [event, setEvent] = useState([]);
     const [movie, setMovie] = useState([]);
     const [play, setPlay] = useState([])
+    const [id, setId] = useState("")
+    const [booked, setBooked] = useState([])
 
     const getEvent = async () => {
         let {data} = await axios.get("http://localhost:3001/events");
@@ -23,15 +25,23 @@ export const ContextProvider = ({children}) => {
         const {data} = await axios.get("http://localhost:3001/plays");
         setPlay(data);
     }
+    const bookeda = async () => {
+        const {data} = await axios.get("http://localhost:3001/books")
+        setBooked(data);
+    }
+    const handleId = (d) => {
+        setId(d);
+    }
 
     useEffect(() => {
         getEvent()
         getMovie();
         getPlay();
+        bookeda();
     }, [])
 
     return (
-        <provider.Provider  value = {{event, movie, play}}>
+        <provider.Provider  value = {{event, movie, play, handleId, id, booked}}>
             {children}
         </provider.Provider>
     )

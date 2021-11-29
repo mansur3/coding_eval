@@ -6,6 +6,7 @@ import { Login } from './Components/Login';
 import { About } from './Components/About';
 import { News } from './Components/News';
 import {Show} from "./Components/Show";
+import {Confirm} from "./Components/confirm";
 
 
 function App() {
@@ -25,23 +26,26 @@ function App() {
           <Route exact path = "/">
             <Home />
           </Route>
-          <Route path = "/login">
+          <Route exact path = "/login">
             <Login />
           </Route>
-          <Route path = "/about">
+          <Route exact path = "/about">
             <About />
           </Route>
-          <Route path = "/news">
+          <Route exact path = "/news">
           <News />
           </Route>
-          <Route path = "/:movie/:id">
+          <Route exact path = "/:movie/:id">
               <Show />
           </Route>
-          <Route path = "/:event/:id">
+          <Route exact path = "/:event/:id">
               <Show />
           </Route>
-          <Route path = "/:play/:id">
+          <Route exact path = "/:play/:id">
               <Show />
+          </Route>
+          <Route exact path = "/ask">
+              <Confirm />
           </Route>
         </Switch>
       </div>

@@ -4,50 +4,59 @@
       "id": 1,
       "title": "The Shawshank Redemption(1994)",
       "author": "Nrupul dev",
-      "rating" : 5.4,
-      "image" : "https://www.bing.com/th?id=OIP.7D1S2qVr2cKr8NgpUtO4rQHaLH&w=151&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
-      "desc" : "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."
-    },  {
+      "rating": 5.4,
+      "image": "https://www.bing.com/th?id=OIP.7D1S2qVr2cKr8NgpUtO4rQHaLH&w=151&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "desc": "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."
+    },
+    {
       "id": 2,
       "title": "The godfather",
       "author": "Nrupul dev",
-      "rating" : 5.0,
-
-      "image" : "https://www.bing.com/th?q=Godfather+Drawings&w=100&h=100&c=7&o=5&dpr=1.5&pid=1.7&mkt=en-IN&cc=IN&setlang=en&adlt=moderate",
-      "desc" : "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."
+      "rating": 5,
+      "image": "https://www.bing.com/th?q=Godfather+Drawings&w=100&h=100&c=7&o=5&dpr=1.5&pid=1.7&mkt=en-IN&cc=IN&setlang=en&adlt=moderate",
+      "desc": "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."
     },
     {
       "id": 3,
       "title": "Venom",
       "author": "Nrupul dev",
-      "rating" : 4.4,
-
-      "image" : "https://www.bing.com/th?id=OIP.7D1S2qVr2cKr8NgpUtO4rQHaLH&w=151&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
-      "desc" : "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."
+      "rating": 4.4,
+      "image": "https://www.bing.com/th?id=OIP.7D1S2qVr2cKr8NgpUtO4rQHaLH&w=151&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "desc": "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."
     }
   ],
   "plays": [
     {
       "id": 1,
-      "title" : "Remoe and juliet",
-      "image" : "https://www.bing.com/th?id=AMMS_7c139bd374282ba289a1717fb1798be2&w=120&h=180&c=7&rs=1&qlt=80&o=6&dpr=1.5&pid=SANGAM",
-      "desc" : "Romeo and Juliet is a tragedy written by William Shakespeare early in his career about two young Italian star-crossed lovers whose deaths ultimately reconcile their feuding families. It was among Shakespeare's most popular plays during his lifetime and, along with Hamlet, is one of his most frequently performed plays."
+      "title": "Remoe and juliet",
+      "image": "https://www.bing.com/th?id=AMMS_7c139bd374282ba289a1717fb1798be2&w=120&h=180&c=7&rs=1&qlt=80&o=6&dpr=1.5&pid=SANGAM",
+      "desc": "Romeo and Juliet is a tragedy written by William Shakespeare early in his career about two young Italian star-crossed lovers whose deaths ultimately reconcile their feuding families. It was among Shakespeare's most popular plays during his lifetime and, along with Hamlet, is one of his most frequently performed plays."
     },
     {
-      "id" : 1,
-      "title" : "BECKETT",
-      "image" : "https://www.bing.com/th?id=AMMS_67a05f19496117c0978db1166a14f97e&w=120&h=180&c=7&rs=1&qlt=80&o=6&dpr=1.5&pid=SANGAM",
-      "desc" : "Waiting for Godot: Directed by Scott Elliot. With Drake Bradshaw, Ethan Hawke, John Leguizamo, Wallace Shawn. An adaptation from the famous play written by Samuel Beckett. The story of Estragon and Vladimir, two clownish tramps who wait for a man named Godot, who probably knows all the answers to their question and to lead on a righteous way. But while doesn't show u"
+      "id": 1,
+      "title": "BECKETT",
+      "image": "https://www.bing.com/th?id=AMMS_67a05f19496117c0978db1166a14f97e&w=120&h=180&c=7&rs=1&qlt=80&o=6&dpr=1.5&pid=SANGAM",
+      "desc": "Waiting for Godot: Directed by Scott Elliot. With Drake Bradshaw, Ethan Hawke, John Leguizamo, Wallace Shawn. An adaptation from the famous play written by Samuel Beckett. The story of Estragon and Vladimir, two clownish tramps who wait for a man named Godot, who probably knows all the answers to their question and to lead on a righteous way. But while doesn't show u"
     }
   ],
   "events": [
     {
       "id": 1,
-      "title" : "16th Annual Program of MUKtI",
-      "date" : "5th dec",
-      "time" : 10,
-      "image" : "https://www.bing.com/th?id=OEI.0d682bcd3b8dd85998c62293e83f47b1&w=132&h=88&c=7&rs=1&qlt=80&o=6&cdv=1&dpr=1.5&pid=Event"
+      "title": "16th Annual Program of MUKtI",
+      "date": "5th dec",
+      "time": 10,
+      "image": "https://www.bing.com/th?id=OEI.0d682bcd3b8dd85998c62293e83f47b1&w=132&h=88&c=7&rs=1&qlt=80&o=6&cdv=1&dpr=1.5&pid=Event"
+    }
+  ],
+  "books": [
+    
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption(1994)",
+      "author": "Nrupul dev",
+      "rating": 5.4,
+      "image": "https://www.bing.com/th?id=OIP.7D1S2qVr2cKr8NgpUtO4rQHaLH&w=151&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "desc": "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."
     }
   ]
-  
 }
